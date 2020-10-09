@@ -1,0 +1,128 @@
+@media only screen and (max-width: 480px) {
+
+div {
+  margin: auto;
+  display: block;
+}
+
+
+#a { 
+  width: 478px;
+  height: 73px;
+  line-height: 73px;
+  background-color: blue;
+}
+
+#b { 
+  width: 478px;
+  height: 148px;
+  line-height: 148px;
+  background-color: blueviolet;
+}
+
+#c, #d { 
+  width: 478px;
+  height: 123px;
+  line-height: 123px;
+}
+
+#c {
+  background-color: royalblue;
+}
+
+#d {
+  background-color: chartreuse;
+}
+
+/* #e, #f { 
+  width: 238px;
+  height: 246px;
+  line-height: 246px;
+
+}
+
+#g, #h { 
+  width: 238px;
+  height: 246px;
+  line-height: 246px;
+} */
+
+#e {
+  background-color: pink;
+}
+
+#f {
+  background-color: khaki;
+}
+
+#g {
+  background-color: firebrick;
+}
+
+#h {
+  background-color:honeydew ;
+}
+
+#i {
+  background-color:lightslategray ;
+}
+
+
+/* ---- */
+#e {
+  grid-area: top-left;
+}
+#f {
+  grid-area: top-right;
+}
+#g {
+  grid-area: g;
+}
+#h {
+  grid-area: h;
+}
+
+.squareBoxes {
+  display: grid;
+  grid-template-columns: 240px 240px;
+  grid-template-rows: 246px 246px;  
+  grid-template-areas: 
+    "top-left top-right"
+    "g h";
+}
+/* ----- */
+
+
+
+#i {
+  width:478px;
+  height: 73px;
+  /* background-color: ; */
+}
+
+/* .sideBySide {
+  max-height: 480px;
+  max-height: 250px;
+} */
+
+.letters {
+  text-align: center;
+  border: 1px dotted magenta;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
