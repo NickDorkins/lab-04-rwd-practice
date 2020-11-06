@@ -1,74 +1,72 @@
-@media only screen and (min-width: 961px) {
+@media only screen and (min-width: 771px) and (max-width: 960px) {
   body {
-    width: auto;
+    width: 960 px;
     margin: auto;
+    background: url("https://images.unsplash.com/photo-1603725322036-f1ffff55f09d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80");
   }
-  div {
-    margin: auto;
-    display: block;
-  }
-  
+ 
   
   #a { 
     width: 958px;
     height: 73px;
     line-height: 73px;
-    background-color: red;
+    background-color: rgb(64, 179, 36);
   }
   
   #b { 
     width: 958px;
     height: 148px;
     line-height: 148px;
-    background-color: yellow;
+    background-color: rgb(38, 54, 148);
   }
   
   #c, #d { 
     width: 958px;
     height: 123px;
     line-height: 123px;
+    /* float: left; */
   }
   
   #c {
-    background-color: pink;
+    background-color: rgb(113, 8, 0);
   }
   
   #d {
-    background-color: orange;
+    background-color: rgb(24, 199, 24);
   }
   
   #e, #f { 
-    width: 478px;
+    width: 480px;
     height: 246px;
     line-height: 246px;
   
   }
   
   #g, #h { 
-    width: 478px;
+    width: 480px;
     height: 246px;
     line-height: 246px;
   }
   
   
   #e {
-    background-color: gold;
+    background-color: rgb(249, 2, 191);
   }
   
   #f {
-    background-color: fuchsia;
+    background-color: rgb(38, 128, 119);
   }
   
   #g {
-    background-color: #A80303;
+    background-color: #A54618;
   }
   
   #h {
-    background-color: #A80365 ;
+    background-color: #A31452 ;
   }
   
   #i {
-    background-color: #A2346525 ;
+    background-color: #A80303 ;
   }
   
   
@@ -101,13 +99,13 @@
   #i {
     width:958px;
     height: 73px;
-    /* background-color: ; */
+    
   }
   
-  /* .sideBySide {
-    max-height: 480px;
+  .sideBySide {
+    max-width: 480px;
     max-height: 250px;
-  } */
+  }
   
   .letters {
     text-align: center;

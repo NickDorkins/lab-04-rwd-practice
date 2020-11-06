@@ -1,0 +1,134 @@
+* {
+  box-sizing:border-box;
+}
+
+@media only screen and (min-width: 961px) {
+  
+   body {
+    width: 1280 px;
+    margin: 0px auto;
+  }
+  
+  body {
+    background: url("https://images.unsplash.com/photo-1602831840547-9c70ecd3e8b6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80");
+    background-size: cover;
+    position: fixed;
+  }
+
+  div {
+    margin: auto;
+    display: block;
+  }
+  
+  
+  #a { 
+    margin: auto;
+    width: 1278px;
+    height: 73px;
+    line-height: 73px;
+    background-color: rgb(64, 179, 36);
+  }
+  
+  #b { 
+    margin: auto;
+    width: 1278px;
+    height: 148px;
+    line-height: 148px;
+    background-color: rgb(38, 54, 148);
+  }
+  
+  #c, #d { 
+    margin: auto;
+    width: 1278px;
+    height: 123px;
+    line-height: 123px;
+  }
+  
+  #c {
+    background-color: rgb(113, 8, 0);
+  }
+  
+  #d {
+    background-color: rgb(24, 199, 24);
+  }
+  
+  #e, #f { 
+    width: 638px;
+    height: 246px;
+    line-height: 246px;
+  
+  }
+  
+  #g, #h { 
+    width: 638px;
+    height: 246px;
+    line-height: 246px;
+  }
+  
+  
+  #e {
+    background-color: rgb(249, 2, 191);
+  }
+  
+  #f {
+    background-color: rgb(38, 128, 119);
+  }
+  
+  #g {
+    background-color: #A54618;
+  }
+  
+  #h {
+    background-color: #A31452 ;
+  }
+  
+  #i {
+    background-color: #A80303 ;
+  }
+  
+  
+  /* ---- */
+  #e {
+    grid-area: top-left;
+  }
+  #f {
+    grid-area: top-right;
+  }
+  #g {
+    grid-area: g;
+  }
+  #h {
+    grid-area: h;
+  }
+  
+  .squareBoxes {
+    width: 1278px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;  
+    grid-template-areas: 
+      "top-left top-right"
+      "g h";
+  }
+  /* ----- */
+  
+  
+  
+  #i {
+    width:1278px;
+    height: 73px;
+    margin: auto;
+    /* background-color: ; */
+  }
+  
+  /* .sideBySide {
+    max-height: 480px;
+    max-height: 250px;
+  } */
+  
+  .letters {
+    text-align: center;
+    border: 1px dotted magenta;
+  }
+  
+  }
